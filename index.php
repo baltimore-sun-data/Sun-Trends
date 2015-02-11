@@ -93,8 +93,8 @@ set_include_path(get_include_path() .':'. trends_base_path.'FOLDER NAME/');
     <!-- CSS
     ================================================== -->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/css/base.css" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/base.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
 
       <!-- Javascript
     ================================================== -->
