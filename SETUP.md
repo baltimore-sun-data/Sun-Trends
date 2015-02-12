@@ -22,11 +22,11 @@ Remember to brand Trends with your market's colors, fonts, logos, etc. These cha
 &nbsp;&nbsp;**Sun Trends uses the font-families Georgia (with Times, serif as fallbacks) and Lato (with sans-serif as a fallback). Be sure to change these fonts in style.css to fit your market's style guide. Trends also utitlizes the Font Awesome icon font library (free and open source). The icons are written into the HTML (lines 135 and 169) in index.php but can easily be removed.
 
 &nbsp;&nbsp; <strong><h3>c. LOGO</h3></strong>
-&nbsp;&nbsp;**Trends masthead logo is a text treatment in Georgia with bottom borders. However, this treatment can easily be swapped out for an image (line 162).<br/>
+&nbsp;&nbsp;**Trends masthead logo is a text treatment in Georgia with bottom borders. However, this treatment can easily be swapped out for an image (line 162).<br/><br/>
   
 
 <strong><h2>3. ADVERTISING</h2></strong>
-&nbsp;&nbsp;**Trends is designed to contain a leaderboard ad at desktop width and a cube ad at mobile width. You'll need ad scripts specific to your market. Contact your advertising representative(s) for market-specific ad scripts to be inserted in the <head> and on lines 201 and 260). <br/>
+&nbsp;&nbsp;**Trends is designed to contain a leaderboard ad at desktop width and a cube ad at mobile width. You'll need ad scripts specific to your market. Contact your advertising representative(s) for market-specific ad scripts to be inserted in the <head> and on lines 201 and 260). 
 
 
 <strong><h2>4. OMNITURE</h2></strong>
