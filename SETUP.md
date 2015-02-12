@@ -1,7 +1,7 @@
 <strong><h1>GETTING STARTED</h1></strong>
 
-<strong><h2>1. TECHNICAL REQUIREMENTS:</h2></strong><br/>
-&nbsp;&nbsp; <strong><h3>a. SERVER CAPACITY</h3></strong> <br/>
+<strong><h2>1. TECHNICAL REQUIREMENTS:</h2></strong>
+&nbsp;&nbsp; <strong><h3>a. SERVER CAPACITY</h3></strong>
 &nbsp;&nbsp;**The Sun hosts Trends behind a CDN and as a subdomain on an Amazon S3 instance, but this isn't a necessity). If you're not familiar with this setup, contact your market's IT specialist or contact TribTech. The server path must be set in index.php on line 5 - i.e. /var/www/html/...)<br/>
 
 &nbsp;&nbsp; <strong><h3>b. XML FEED</h3></strong> <br/>
