@@ -1,23 +1,23 @@
 <strong><h1>GETTING STARTED</h1></strong>
 
-<strong>1. TECHNICAL REQUIREMENTS:</strong>
-&nbsp;&nbsp; a.SERVER CAPACITY <br/>
-**The Sun hosts Trends behind a CDN and as a subdomain on an Amazon S3 instance, but this isn't a necessity). If you're not familiar with this setup, contact your market's IT specialist or contact TribTech.<
-&nbsp;&nbsp; b.
-<strong>XML feed </strong>of most-viewed stories to stream from  <br/>
-**Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml (This will need to be setup for you by TribTech, if you don't already have one).
+<strong><h2>1. TECHNICAL REQUIREMENTS:</h2></strong><br/>
+&nbsp;&nbsp; a.<strong><h3>SERVER CAPACITY</h3></strong> <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**The Sun hosts Trends behind a CDN and as a subdomain on an Amazon S3 instance, but this isn't a necessity). If you're not familiar with this setup, contact your market's IT specialist or contact TribTech.<br/><br/>
 
-<strong>Cache</strong>  <br/>
-**Sun Trends automatically refreshes every 3 minutes as part of it's subdomain setup (recommended). However, caching is written into index.php to be executed by SimplePie.php (see lines 21-69).
+&nbsp;&nbsp; b.<strong><h3>XML FEED</h3></strong>of most-viewed stories to stream from  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml (This will need to be setup for you by TribTech, if you don't already have one).<br/><br/>
 
-<strong></strong><br/>
+&nbsp;&nbsp; c.<strong><h3>Cache</h3></strong> <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**Sun Trends automatically refreshes every 3 minutes as part of it's subdomain setup (recommended). However, caching is written into index.php to be executed by SimplePie.php (see lines 21-69). Fill in the name of the cache folder as well as the time you'd like to allow between caching (dafault is 3 minutes).<br/><br/>
 
 
-<strong> CSS CUSTOMIZATION</strong><br/>
+<strong><h2>2. BRANDING</2></strong><br/>
 Remember to brand Trends with your market's colors, fonts, logos, etc. These changes can easily be made in style.css
 &nbsp;&nbsp; a. COLORS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**Sun Trends uses goldenrod (#1c3454) and black (#000000) as it's primary colors with light gray (#e0e0e0) and dark gray (#a9a9a9) as accents. Be sure to change these colors in style.css to fit your market's palette.
 &nbsp;&nbsp; b. FONTS<br/>
-&nbsp;&nbsp; c.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**Sun Tr
+&nbsp;&nbsp; c. LOGOS<br/>
   
 
 
