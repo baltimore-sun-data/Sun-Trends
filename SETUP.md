@@ -26,7 +26,7 @@ Remember to brand Trends with your market's colors, fonts, logos, etc. These cha
   
 
 <strong><h2>3. ADVERTISING</h2></strong>
-&nbsp;&nbsp;**Trends is designed to contain a leaderboard ad at desktop width and a cube ad at mobile width. You'll need ad scripts specific to your market. Contact your advertising representative(s) for market-specific ad scripts to be inserted in the <head> and on lines 201 and 260). 
+&nbsp;&nbsp;**Trends is designed to contain a leaderboard ad at desktop width and a cube ad at mobile width. You'll need ad scripts specific to your market. Contact your advertising representative(s) for market-specific ad scripts to be inserted in the "head" and on lines 201 and 260). 
 
 
 <strong><h2>4. OMNITURE</h2></strong>
