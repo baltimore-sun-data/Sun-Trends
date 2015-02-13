@@ -159,7 +159,7 @@ set_include_path(get_include_path() .':'. trends_base_path.'inc/');
    <div id="main-container">
 
    <div id="title-container">
-         <div id="title">INERT YOUR PAGE TITLE OR LOGO HERE</div><!--/title-->
+         <div id="title">INERT TITLE</div><!--/title-->
       </div><!--/title-container-->   
 
       <div id="tagline">
