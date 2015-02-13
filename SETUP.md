@@ -23,6 +23,7 @@ Remember to brand Trends with your market's colors, fonts, logos, etc. These cha
 **Sun Trends uses goldenrod (#1c3454) and black (#000000) as it's primary colors with light gray (#e0e0e0) and dark gray (#a9a9a9) as accents. Be sure to change these colors in style.css to fit your market's palette.
 &nbsp;&nbsp;<strong><h3>b. FONTS</h3></strong>
 **Sun Trends uses the font-families Georgia (with Times, serif as fallbacks) and Lato (with sans-serif as a fallback). <br/>
+
 <strong>a.</strong> Be sure to change these fonts in style.css to fit your market's style guide. Trends also utitlizes the Font Awesome icon font library (free and open source). The icons are written into the HTML (lines 135 and 169) in index.php but can easily be commented out or removed. NOTE:The Font Awesome library isn't included in the repository, but can be <a href="http://fontawesome.io/">downloaded here</a>.<br/>
 
 <strong>b.</strong> Change out the "header" (lines 157-193) for your market's third party tophat 
