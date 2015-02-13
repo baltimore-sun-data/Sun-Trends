@@ -6,7 +6,9 @@
 **The Baltimore Sun hosts Sun Trends behind a <a href="http://aws.amazon.com/cloudfront/">CDN</a> as a subdomain on an Amazon EC2 instance. If you're not familiar with this process, contact your market's IT specialist or contact TribTech. A subdomain isn't a necessity, however. Simply uploading the files to your server is sufficient.  <br/>
 
 <strong>Step 3.</strong> Edit index.php file.<br/>
-<strong>a.</strong> The server path must be on line 5 as a relative path- i.e. /folder-where-trends-lives)<br/>
+<strong>a.</strong> The server path must be changed on line 5. <br/>
+**This should be a relative (not absolute) path. <br/>
+Example:  /folder-where-trends-lives
 
 <strong>b.</strong> Insert the XML feed URL on line 53.<br/>
 **Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml <br/>
