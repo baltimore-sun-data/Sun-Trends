@@ -1,19 +1,19 @@
 <?php
 
 
-//Insert the path to your folder containing all Trends files between the backslashes
-define('trends_base_path','/INSERT PATH HERE/'); 
+//Insert the path to your folder containing all Trends files between the backslashes; Example: /var/www/html/trends-baltimoresun-com
+define('trends_base_path','/INSERT RELATIVE PATH HERE/'); 
 
 error_reporting(E_ALL);
 ini_set("display_errors","1");
 
 //Insert the name of the folder containing SimplePie library
-set_include_path(get_include_path() .':'. trends_base_path.'FOLDER NAME/');
+set_include_path(get_include_path() .':'. trends_base_path.'inc/');
 
 
     ##get the SimplePie library
 
-    require_once(trends_base_path.'FOLDER NAME/SimplePie.php');
+    require_once(trends_base_path.'inc/SimplePie.php');
 
 
 
@@ -29,7 +29,7 @@ set_include_path(get_include_path() .':'. trends_base_path.'FOLDER NAME/');
     $feed1->enable_cache(false);
     
     ##provide the caching folder
-    $feed1->set_cache_location('INSERT NAME OF CACHE FOLDER');
+    $feed1->set_cache_location('cache');
     
     ##set the amount of seconds you want to cache the feed (3 minutes here)
     $feed1->set_cache_duration(1800);
@@ -57,7 +57,7 @@ set_include_path(get_include_path() .':'. trends_base_path.'FOLDER NAME/');
     $feed2->enable_cache(false);
     
     ##provide the caching folder
-    $feed2->set_cache_location('INSERT NAME OF CACHE FOLDER');
+    $feed2->set_cache_location('cache');
     
     ##set the amount of seconds you want to cache the feed (3 minutes here)
     $feed2->set_cache_duration(1800);
