@@ -2,7 +2,8 @@
 
 <strong><h3>1. TECHNICAL REQUIREMENTS</h3></strong>
 <strong>Step 1.</strong> Download files from Github as a .zip<br/>
-<strong>Step 2.</strong> Unzip .zip and upload the files to your server. Step 3. Edit index.php file.<br/>
+<strong>Step 2.</strong> Unzip .zip and upload the files to your server.<br/>
+<strong>Step 3.</strong> Edit index.php file.<br/>
 
 <strong>a.</strong> The server path must be changed on line 5.  Replace INSERT RELATIVE PATH HERE  (see <strong>**Identifying Server base path below for help identifying this path</strong>). Leave quotes and slashes.<br/>    
 
