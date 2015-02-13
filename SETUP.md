@@ -3,6 +3,7 @@
 <strong><h3>1. TECHNICAL REQUIREMENTS</h3></strong>
 <strong>Step 1.</strong> Download files from Github as a .zip<br/>
 <strong>Step 2.</strong> Unzip .zip and upload the files to your server. Step 3. Edit index.php file.<br/>
+
 <strong>a.</strong> The server path must be changed on line 5.  Replace INSERT RELATIVE PATH HERE  (see <strong>**Identifying Server base path below for help identifying this path</strong>). Leave quotes and slashes.<br/>    
 
 <strong>b.</strong>Insert the XML feed URL on line 25 and 53.<br/>
@@ -31,16 +32,19 @@ We created a page to help you identify the server base path.
 
 <strong><h3>2. BRANDING</h3></strong>
 Remember to brand Trends with your market's colors, fonts, logos, etc. These changes can easily be made in style.css
+
 <strong>a.</strong> COLORS
 *Sun Trends uses goldenrod (#1c3454) and black (#000000) as it's primary colors with light gray (#e0e0e0) and dark gray (#a9a9a9) as accents. Be sure to change these colors in style.css to fit your market's palette. <br/>
+
 <strong>b.</strong> FONTS
-*Sun Trends uses the font-families Georgia (with Times, serif as fallbacks) and Lato (with sans-serif as a fallback).
-<stron>a.</strong> Be sure to change these fonts in style.css to fit your market's style guide. Trends also utitlizes the Font Awesome icon font library (free and open source). The icons are written into the HTML (lines 135 and 169) in index.php but can easily be commented out or removed. NOTE:The Font Awesome library isn't included in the repository, but can be <a href="http://fontawesome.io/">downloaded here</a>.
+*Sun Trends uses the font-families Georgia (with Times, serif as fallbacks) and Lato (with sans-serif as a fallback).<br/>
+
+<strong>a.</strong> Be sure to change these fonts in style.css to fit your market's style guide. Trends also utitlizes the Font Awesome icon font library (free and open source). The icons are written into the HTML (lines 135 and 169) in index.php but can easily be commented out or removed. NOTE:The Font Awesome library isn't included in the repository, but can be <a href="http://fontawesome.io/">downloaded here</a>.<br/>
 
 <strong>b.</strong> Change out the "header" (lines 157-193) for your market's third party tophat. <br/>
 
 <strong>c.</strong> LOGO
-*Trends masthead logo is a text treatment in Georgia with bottom borders. However, this treatment can easily be swapped out for an image (line 162).  
+*Trends masthead logo is a text treatment in Georgia with bottom borders. However, this treatment can easily be swapped out for an image (line 162).
 
 <strong><h3>3. ADVERTISING & OMNITURE</h3></strong>
 *Trends is designed to contain a leaderboard ad at desktop width and a cube ad at mobile width. You'll need ad scripts specific to your market. Contact your advertising representative(s) for market-specific ad scripts to be inserted in the "head" of the HTML and on lines 201 and 260). Omniture tags also need to be included at the bottom of index.php on line 270.<br/>
