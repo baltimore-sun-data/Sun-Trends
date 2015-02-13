@@ -8,10 +8,15 @@
 <strong>b.</strong>Insert the XML feed URL on line 25 and 53.<br/>
 <em>**Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml</em> <br/>
 This will need to be setup for you by TribTech, if you don't already have one. <br/>
+
 <strong>c.</strong> Modify page title on line 164 and tagline on line 169. <br/>
+
 <strong>d.</strong> Modify the tophat by adding your newspaper.com site logo to line 141 (166x15px) and navigation links on line 145. <br/>
-<strong>e.</strong> Modify styles based on info below in “Branding”
+
+<strong>e.</strong> Modify styles based on info below in “Branding.”
+
 <strong>f.</strong> Add in your market’s ad tags and omniture code.  See “ADVERTISING & OMNITURE” below for more information. <br/>
+
 <strong>g.</strong> OPTIONAL: Edit the amount of time you'd like to allow between caching on lines 35 and 63.  See “SUBDOMAIN & CACHING” below for more info. <br/>
 
 <strong><em>** Identifying Server base path</em></strong>
