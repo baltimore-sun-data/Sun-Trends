@@ -5,10 +5,16 @@
 <strong>Step 2.</strong> Unzip .zip and upload the files to your server.<br/>
 **The Baltimore Sun hosts Sun Trends behind a <a href="http://aws.amazon.com/cloudfront/">CDN</a> as a subdomain on an Amazon EC2 instance. If you're not familiar with this process, contact your market's IT specialist or contact TribTech. A subdomain isn't a necessity, however. Simply uploading the files to your server is sufficient.  <br/>
 
-<strong>Step 3.</strong> Edit index.php file.<br/>
-<strong>a.</strong> The server path must be changed on line 5. <br/>
-**This should be a relative (not absolute) path. <br/>
-Example:  /folder-where-trends-lives
+<strong>Step 3.</strong> Edit getcwd.php in folder labeled "php".<br/>
+<strong>a.</strong> Open getcwd.php in a text editor<br/>
+<strong>b.</strong> Uncomment the single commented command in that file by removing the double backslashes.<br/>
+<strong>c.</strong> Save the file. <br/>
+<strong>d.</strong> View the file in your web browser. <br/>
+<strong>e.</strong> Save the output (relative server path from root) somewhere. (<br/>
+<strong>f.</strong> Re-comment the line in the file to prevent malicious visitors from seeing details about your server. Or, even better, delete the file entirely. <br/>
+
+<strong>Step 4.</strong> Edit index.php file.<br/>
+<strong>a.</strong> The server path must be changed on line 5 (see previous step). <br/>
 
 <strong>b.</strong> Insert the XML feed URL on lines 25 and 53.<br/>
 **Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml <br/>
