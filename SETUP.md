@@ -10,7 +10,7 @@
 **This should be a relative (not absolute) path. <br/>
 Example:  /folder-where-trends-lives
 
-<strong>b.</strong> Insert the XML feed URL on line 53.<br/>
+<strong>b.</strong> Insert the XML feed URL on lines 25 and 53.<br/>
 **Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml <br/>
 This will need to be setup for you by TribTech, if you don't already have one.<br/>
 
