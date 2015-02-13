@@ -1,14 +1,18 @@
 <strong><h1>GETTING STARTED</h1></strong>
 <strong><h2>1. TECHNICAL REQUIREMENTS</h2></strong>
-Step 1. Download files from Github<br/>
-Step 2. Upload these files to your server.<br/>
+<strong>Step 1.</strong> Download files from Github<br/>
+
+<strong>Step 2.</strong> Upload these files to your server.<br/>
 **The Baltimore Sun hosts Sun Trends behind a <a href="http://aws.amazon.com/cloudfront/">CDN</a> as a subdomain on an Amazon EC2 instance. If you're not familiar with this process, contact your market's IT specialist or contact TribTech. A subdomain isn't a necessity, however. Simply uploading the files to your server is sufficient.  <br/>
-Step 3. Edit index.php file.<br/>
-a. The server path must be on line 5 as a relative path- i.e. /folder-where-trends-lives)<br/>
-b. Insert the XML feed URL on line 53.<br/>
+
+<strong>Step 3.</strong> Edit index.php file.<br/>
+<strong>a.</strong> The server path must be on line 5 as a relative path- i.e. /folder-where-trends-lives)<br/>
+
+<strong>b.</strong> Insert the XML feed URL on line 53.<br/>
 **Example: http://www.baltimoresun.com/mostviewed_rss2.0.xml <br/>
 This will need to be setup for you by TribTech, if you don't already have one.<br/>
-c.OPTIONAL: Edit the amount of time you'd like to allow between caching on lines 35 and 63.<br/>
+
+<strong>c.</strong> OPTIONAL: Edit the amount of time you'd like to allow between caching on lines 35 and 63.<br/>
 **Sun Trends automatically refreshes every 3 minutes (recommended) as part of it's CDN setup. However, caching is written into index.php to be executed by SimplePie.php (see lines 21-69).<br/>
 
 <strong><h2>2. BRANDING</h2></strong>
