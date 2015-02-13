@@ -1,0 +1,1 @@
+SimplePie library takes care of caching. If you want to handle caching differently, see lines 21-69 of index.php
