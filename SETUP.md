@@ -26,7 +26,7 @@ We created a page to help you identify the server base path.
 
 -- Open the file php/getcwd.php in text editor and uncomment the single commented command in that file by removing the double slashes. 
  
--- Upload the file to the same folder where you are hosting trends and view in your web browser. This is your server path.  (ours is “/var/www/html/trends-baltimoresun-com” results may vary)
+-- Upload the file to the same folder where you are hosting trends and view in your web browser. This is your server path (i.e. “/var/www/html/path-to-trends-folder”)
   
 -- For security purposes, DELETE THIS FILE FROM THE SERVER.
 
